@@ -1,0 +1,58 @@
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.card p {
+  font-size: 1em;
+}
+
+.card span {
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.rate {
+  font-size: 0.6em;
+}
+
+.bottom {
+  margin-top: 146px;
+}
+
+.productButton {
+  display: none;
+}
+
+@media only screen and (min-width: 850px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .card span {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .card span {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .card span {
+    font-size: 0.8em;
+  }
+}
